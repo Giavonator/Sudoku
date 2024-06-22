@@ -1,2 +1,2 @@
 # Sudoku
-	Sudoku Java Desktop Application using JavaFX Java Framework
+	Sudoku Java Desktop Application using JavaFX Java Framework by Giani Gabriel Alvez
