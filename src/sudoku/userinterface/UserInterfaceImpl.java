@@ -58,7 +58,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
 
     private void drawBackground(Group root) {
         Scene scene = new Scene(root, WINDOW_X, WINDOW_Y);
-        scene.setFill(BOARD_BACKGROUND_COLOR);
+        scene.setFill(WINDOW_BACKGROUND_COLOR);
         stage.setScene(scene);
     }
 
