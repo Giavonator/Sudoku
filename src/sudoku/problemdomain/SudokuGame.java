@@ -16,7 +16,7 @@ public class SudokuGame implements Serializable{
     }
 
     public GameState getGameState(){
-        return gameState;
+        return gameState; 
     }
 
     public int[][] getCopyOfGridState(){
