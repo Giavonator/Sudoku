@@ -39,6 +39,9 @@ public class ControlLogic implements IUserInterfaceContract.EventListener{
             if(gameData.getGameState() == GameState.COMPLETE) {
                 view.showDialog(Messages.GAME_COMPLETE);
             }
+            else if (gameData.getGameState() == GameState.INCORRECT) {
+                view.showDialog(Messages.INCORRECT_GAME);
+            }
 
         } catch (IOException e) {
             e.printStackTrace();

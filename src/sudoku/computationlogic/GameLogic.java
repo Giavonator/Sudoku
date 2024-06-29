@@ -20,8 +20,8 @@ public class GameLogic {
     }
 
     public static GameState checkForCompletion(int[][] grid) {
-        if (sudokuIsInvalid(grid)) return GameState.ACTIVE;
         if (tilesAreNotFilled(grid)) return GameState.ACTIVE;
+        if (sudokuIsInvalid(grid)) return GameState.INCORRECT;
         return GameState.COMPLETE;
     }
 
