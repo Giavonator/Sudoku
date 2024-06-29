@@ -31,8 +31,8 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
 
     private IUserInterfaceContract.EventListener listener;
 
-    private final static double WINDOW_X = 732;
-    private final static double WINDOW_Y = 668;
+    private final static double WINDOW_X = 679;
+    private final static double WINDOW_Y = 732;
     private final static double BOARD_PADDING = 50;
     private final static double BOARD_X_AND_Y = 576;
 
@@ -63,7 +63,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
     }
 
     private void drawTitle(Group root) {
-        Text title = new Text(235, 690, SUDOKU);
+        Text title = new Text(275, 690, SUDOKU);
         title.setFill(Color.WHITE);
         Font titleFont = new Font(43);
         title.setFont(titleFont);
