@@ -1,5 +1,6 @@
 package sudoku.userinterface;
 
+import sudoku.constants.GameDifficulty;
 import sudoku.problemdomain.SudokuGame;
 
 public interface IUserInterfaceContract {
@@ -14,5 +15,6 @@ public interface IUserInterfaceContract {
         void updateBoard(SudokuGame game);
         void showDialog(String message);
         void showError(String message);
+        GameDifficulty getDifficulty();
     }
 }
